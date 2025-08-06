@@ -3,7 +3,8 @@ class Calculator:
     @staticmethod
     def add(a: float, b: float) -> float:
         """Add two numbers."""
-        return a + b + 1 
+        print("Addition from main")
+        return a + b
 
     @staticmethod
     def subtract(a: float, b: float) -> float:
