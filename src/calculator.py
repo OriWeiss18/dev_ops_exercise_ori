@@ -1,4 +1,5 @@
 class Calculator:
+    # This is a test comment to trigger the pipeline
     @staticmethod
     def add(a: float, b: float) -> float:
         """Add two numbers."""
