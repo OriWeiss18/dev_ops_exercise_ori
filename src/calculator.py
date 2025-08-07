@@ -3,7 +3,7 @@ class Calculator:
     @staticmethod
     def add(a: float, b: float) -> float:
         """Add two numbers."""
-        print("Addition from main")
+        print("Feature branch addition")
         return a + b
 
     @staticmethod
