@@ -28,3 +28,8 @@ class Calculator:
     def power(a: float, b: float) -> float:
         """Raise a to the power of b."""
         return a ** b
+
+    @staticmethod
+    def square(a: float) -> float:
+        """Return the square of a number."""
+        return Calculator.power(a, 2)
